@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import Portifolio from './Portifolio';
+import Produtos from './Produtos';
 import '../Sass/styleLogin.css';
 
 function Login() {
@@ -27,7 +27,7 @@ function Login() {
     <section className="login">
 
       {getUsuario && getSenha ? (
-        <Portifolio/>
+        <Produtos/>
       ) : (
         <form onSubmit={handleSubmit} >
           <p>
