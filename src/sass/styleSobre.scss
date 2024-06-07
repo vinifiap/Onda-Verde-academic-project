@@ -29,3 +29,102 @@
         border-radius: 5px;
     }
 }
+
+@media (max-width: 600px){
+    .content {
+        font-size: 1em;
+        padding-top: 60px;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .sobre {
+            padding-right: 0;
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            p {
+                line-height: 1.4;
+                margin-bottom: 5px;
+            }
+        }
+
+        img {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media(min-width: 601px) and (max-width: 900px) {
+    .content {
+        font-size: 1.1em;
+        padding-top: 90px;
+
+        .sobre {
+            padding-right: 10px;
+
+            h2 {
+                font-size: 1.75em;
+            }
+
+            p {
+                line-height: 1.5;
+                margin-bottom: 7px;
+            }
+        }
+
+        img {
+            max-width: 50%;
+        }
+    }
+}
+
+@media(min-width: 901px) and (max-width: 1200px) {
+    .content {
+        font-size: 1.2em;
+        padding-top: 120px;
+
+        .sobre {
+            padding-right: 20px;
+
+            h2 {
+                font-size: 2em;
+            }
+
+            p {
+                line-height: 1.6;
+                margin-bottom: 10px;
+            }
+        }
+
+        img {
+            max-width: 40%;
+        }
+    }
+}
+
+@media (min-width: 1201px){
+    .content {
+        font-size: 1.3em;
+        padding-top: 150px;
+
+        .sobre {
+            padding-right: 30px;
+
+            h2 {
+                font-size: 2.5em;
+            }
+
+            p {
+                line-height: 1.7;
+                margin-bottom: 15px;
+            }
+        }
+
+        img {
+            max-width: 30%;
+        }
+    }
+}
