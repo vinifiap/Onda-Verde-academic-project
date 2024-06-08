@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import Produtos from './Produtos';
-import '../Sass/styleLogin.css';
+import '../sass/styleLogin.scss';
 
 function Login() {
   const usuario = useRef();
