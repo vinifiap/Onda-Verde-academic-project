@@ -23,8 +23,8 @@ const Home = () => {
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h5>First slide label</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h5>Protótipo desenvolvido</h5>
+                    <p>Protótipo criado para monitorar a poluição e qualidade das águas em diferentes regiões.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -38,19 +38,7 @@ const Home = () => {
                     <p className='subcarosel'>Foto de Leões-marinhos do Sul do Brasil.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src={Prototipo}
-                    alt="Third slide"
-                    />
-                    <Carousel.Caption>
-                    <h5>Third slide label</h5>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
+                
                 </Carousel>
             </section>
             <section className='containerprincipal'>
