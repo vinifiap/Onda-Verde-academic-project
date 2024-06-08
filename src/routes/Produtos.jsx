@@ -1,5 +1,5 @@
 import {} from 'react';
-import '../Sass/styleProduto.scss';
+import '../sass/styleProduto.scss';
 import Produto from '../assets/produto.png'
 import { useNavigate } from 'react-router-dom';
 
