@@ -51,6 +51,3 @@ Pages created according to the project requirements:
 - Login
 - Product
 
----
-
-Se precisar de mais alguma coisa, estou à disposição!
